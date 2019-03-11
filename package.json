@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-es6-kit",
+  "version": "1.0.0",
+  "description": "A template for NodeJs Server use ES6 syntax",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangtien97/nodejs-es6-kit.git"
+  },
+  "keywords": [
+    "es6",
+    "nodejs"
+  ],
+  "author": "dangtien97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dangtien97/nodejs-es6-kit.git/issues"
+  },
+  "homepage": "https://github.com/dangtien97/nodejs-es6-kit.git#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.10"
+  }
+}
